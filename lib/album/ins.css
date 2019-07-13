@@ -1,6 +1,9 @@
 #post-instagram{
 	padding: 30px;
 }
+figure {
+    margin: 5px 20px;
+}
 #post-instagram .article-entry{
 	padding-right: 0;
 }
@@ -9,7 +12,13 @@
 	min-height: 500px;
 }
 .instagram img {
-	width: 100%;
+    width: 100%;
+    
+}
+.posts-expand .post-body img {
+    padding: 0;
+    border : 5px dashed #12D8FA;
+	
 }
 .instagram .year {
 	font-size: 16px;
@@ -121,9 +130,9 @@
 	padding: 5px 8px 3px;
 }
 .photos-btn.active {
-	color: red;
+	color: #08c;
 	border: 1px solid #e5e5e5;
-	border-bottom: 5px solid #fff;
+	border-bottom: 3px solid #6DD5FA;
 }
 
 @media screen and (max-width:600px) {
